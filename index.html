@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Registration Form</title>
+        <!-- <link rel="stylesheet" href="style.css" /> -->
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <br />
+        <br />
+        <div class="Rform">
+            <form id="user-form" method="post">
+                <label for="name">Name :</label>
+                <input type="text" name="name" id="name" placeholder="Enter Full Name" required /><br />
+                <br />
+
+                <label for="email">Email :</label>
+                <input type="email" name="email" id="email" placeholder="Enter Email" required /><br />
+                <br />
+
+                <label for="password">Password :</label>
+                <input type="password" name="password" id="password" placeholder="Enter Passwords" required /><br />
+                <br />
+
+                <label for="dob">Date of Birth :</label>
+                <input type="date" name="dob" id="dob" required /><br />
+                <br />
+
+                <input type="checkbox" name="Terms" id="Terms" required />
+                <label for="Terms">Accept Terms & Conditions :</label><br />
+                <br />
+
+                <button value="Submit">Submit</button>
+            </form>
+        </div>
+        <h2>Entries</h2>
+        <div class="user-entries"></div>
+        <script type="text/javascript" src="control.js"></script>
+    </body>
+</html>
